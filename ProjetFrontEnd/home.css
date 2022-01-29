@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-top: 0%;
+}
+
+.landing{
+    background-image: url(images/2-7.jpg);
+    height: 100vh;
+   
+    background-position: center;
+    background-size: cover;
+    
+   
+}
+header{
+    
+    background-color: white;
+    height: 10%;
+    padding: 0px;
+}
+ul{
+    padding: 0;
+    float: right;
+    width: 45%;
+    
+    
+}
+ul li{
+    
+    list-style: none;
+    width: 100px;
+    height: 50px;
+    float:left;
+    text-align: center;
+    line-height: 50px;
+    
+}
+ul li a{
+    color:black;
+    text-decoration: none;
+}
+ul li:hover{
+
+
+  transition: 0.5s;
+  cursor: pointer;
+}
+ul li:hover a{
+     
+    color: rgb(185, 57, 100);
+    font-weight: bold;
+}
+
+
+img{
+    position: absolute;
+    left:100px;
+}
+ 
+h1{
+
+    font-family:"Viner Hand ITC";
+    position: absolute;
+    top:35%;
+    left :10%;
+    background-color: brown;
+    color: white;
+    font-size: xxx-large;
+    padding: 10px;
+    margin: 10px;
+}
+h2{
+
+    font-family:"Viner Hand ITC";
+    position: absolute;
+    top: 55%;
+    left :15%;
+    background-color: rgba(19, 70, 112, 0.596);
+    color: white;
+    font-size: xxx-large;
+    padding: 10px;
+    margin: 10px;
+}
+
+h3{
+    color: white;
+    font-weight: bold;
+    font-family:"Viner Hand ITC";
+    position: absolute;
+    top:75%;
+    left :7%;
+    background-color: black;
+    font-size: xx-large;
+    padding: 10px;
+    margin: 10px;
+}
+
+img{
+    position: absolute;
+    left:100px;
+}
+ 
+
+
+.search{
+ 
+     
+}
+
+.searchcontainer {
+  
+    margin-top: 200px;
+    padding: 12px 20px;
+    
+    position: absolute;
+    left: 30%;
+    top:0%;
+    display: flex;
+    width: 85%;
+  
+    
+}
+  
+.searchbar {
+    width: 45%;
+ 
+    margin-left: 120px ;
+    border: 2px solid #00CED1;
+    border-right: none;
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #0f0f0f;
+    text-align: center;
+    padding:15px ;
+    margin:15px;
+    position: relative;
+
+    top:16%;
+    left:20%;
+}
+
+
+#koko{
+     position: absolute;
+     top :26%;
+     left:66%;
+}
+   
+  

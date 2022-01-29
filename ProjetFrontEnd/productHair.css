@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-top: 0%;
+}
+
+.landing{
+    background-image: url("images/hair\ style.PNG");
+    height: 100vh;
+   
+    background-position: center;
+    background-size: cover;
+    
+   
+}
+header{
+    
+    background-color: white;
+    height: 10%;
+    padding: 0px;
+}
+ul{
+    padding: 0;
+    float: right;
+    width: 45%;
+    
+    
+}
+ul li{
+    
+    list-style: none;
+    width: 100px;
+    height: 50px;
+    float:left;
+    text-align: center;
+    line-height: 50px;
+    
+}
+ul li a{
+    color:black;
+    text-decoration: none;
+}
+ul li:hover{
+
+
+  transition: 0.5s;
+  cursor: pointer;
+}
+ul li:hover a{
+     
+    color: rgb(185, 57, 100);
+    font-weight: bold;
+}
+
+.searchbar {
+    width: 60%;
+ 
+    margin-left: 120px ;
+    border: 3px solid rgb(118, 165, 47);
+   
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #0f0f0f;
+    text-align: center;
+    position: relative ;
+    padding:15px ;
+    margin:15px;
+}
+.btn{
+    background-color: rgb(118, 165, 47);
+    color: honeydew;
+    font-weight: bold;
+    padding: 15px 30px ;
+    text-decoration: none;
+    font-family :"Andalus"
+}
+
+h2{
+    color: rgb(236, 126, 192);
+    font-weight: bold;
+    font-family:"Viner Hand ITC";
+
+}
+
+h1{
+    color: white;
+    font-family :"Andalus";
+}
+
+table{
+
+    width: 100%;
+   
+}
+td{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.footer{
+    background-image: url("images/footer.PNG");
+    height: 35vh;
+   
+    background-position: center;
+    background-size: cover;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 10px;
+}
+#img1{
+
+    position:relative;
+    top:0%;
+    left:5%;
+}
+
+#img2{
+
+    position: relative;
+    top:0%;
+    left:20%;
+}
+#img3{
+
+    position: relative;
+    top:0%;
+    left:30%;
+}
+p{
+font-family:"Andalus";
+position: relative;
+top: 5%;
+left :35%;
+
+color: rgb(120, 5, 74);
+font-size: xxx-large;
+padding: 5px;
+margin: 5px;
+}
+
+img{
+    position: absolute;
+    left:100px;
+}
